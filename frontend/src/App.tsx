@@ -70,7 +70,7 @@ function App() {
       formData.append("alpha", alpha.toString());
 
       // Call FastAPI through the Vite proxy
-      const response = await fetch("/api/edit", {
+      const response = await fetch(`${import.meta.env.VITE_API_URL || "/api"}/edit`, {//for production vite to communicate with render
         method: "POST",
         body: formData,
       });
