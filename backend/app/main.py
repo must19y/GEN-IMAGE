@@ -44,9 +44,9 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://gen-image-blush.vercel.app/",
-        "https://gen-image-git-main-gen-image.vercel.app/",
-        "https://gen-image-k6l6tbdfe-gen-image.vercel.app/"
+        "https://gen-image-blush.vercel.app",
+        "https://gen-image-git-main-gen-image.vercel.app",
+        "https://gen-image-k6l6tbdfe-gen-image.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
