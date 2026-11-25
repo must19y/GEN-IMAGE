@@ -1,7 +1,6 @@
 # GEN-IMAGE
 ### Model Details and Limitations
 
-- Dataset: CelebA
 - Architecture: Variational Autoencoder (VAE)
 - Latent dimension: 200
 - Input/output resolution: 32 × 32 RGB
